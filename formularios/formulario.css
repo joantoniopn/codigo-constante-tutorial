@@ -1,0 +1,17 @@
+.grupo-campo {
+    padding: 10px;
+}
+
+.grupo-campo > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grupo-campo > input, select {
+    padding: 10px;
+    border: 1px solid #DADADAFF;
+}
+
+.grupo-campo button {
+    padding: 10px;
+}

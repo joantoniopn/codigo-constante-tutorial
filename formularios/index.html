@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Como Recuperar Formulário em Javascript?</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Página como Recuperar Formulário em Javascript">
+    <meta name="keywords" content="html, css, js, site, worker">
+    <meta name="robots" content="index">
+    <link href="formulario.css" rel="stylesheet">
+</head>
+<body>
+<form id="form-envio">
+    <div class="grupo-campo">
+        <label>Select Simples: </label>
+        <select name="select-simples">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </div>
+    <div class="grupo-campo">
+        <label>Select Multiple: </label>
+        <select name="select-multiple" multiple>
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </div>
+    <div class="grupo-campo">
+        <label>Input Simples: </label>
+        <input value="" name="input_simples" type="text" />
+    </div>
+    <div class="grupo-campo">
+        <label><input type="checkbox" name="lista_checked[]" value="check1"/> Check 1</label>
+        <label><input type="checkbox" name="lista_checked[]" value="check2"/> Check 2</label>
+    </div>
+    <div class="grupo-campo">
+        <label><input type="radio" name="radio_padrao" value="sim"/> Sim</label>
+        <label><input type="radio" name="radio_padrao" value="não"/> Não</label>
+    </div>
+    <div class="grupo-campo">
+        <label>Input File</label>
+        <input name="arquivo" type="file" />
+    </div>
+
+    <div class="grupo-campo">
+        <button id="btn-enviar">Enviar</button>
+    </div>
+</form>
+<div id="app"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
